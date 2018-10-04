@@ -1,4 +1,10 @@
-# myTestRepo
+# STUFF TO DO FIRST:
+- Clone this project
+- Make a folder with your name as the folder name
+- copy over the `free-code-camp-progress.template.txt` file over into your new folder and rename it to `free-code-camp-progress.txt`
+- Update the file with all of your FCC progress. Keep this file up to date weekly please.
+
+# Apprentice notes and general stuff
 This is a test repo
 
 Some commands for you:
