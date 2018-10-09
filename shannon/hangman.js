@@ -1,4 +1,5 @@
 // https://teamtreehouse.com/community/how-to-get-input-in-the-console-in-nodejs
+// need to npm install 'readline-sync'
 
 const readline = require('readline-sync');
 let run = true;
