@@ -3,7 +3,7 @@
 
 const readline = require('readline-sync');
 let run = true;
-const answer = 'CAT'
+const answer = 'YAGA'
 let lettersTried = [];
 const maxTries = 10;
 let currentSolution = '';
