@@ -1,0 +1,10 @@
+Weekly Progress
+[date] - [date]: [number of completed exercises]
+
+Responsive Web Design
+  - Basic HTML and HTML5 [0/27]
+  - Basic CSS [0/44]
+  - Applied Visual Design [0/x]
+  - Applied Accessibility []
+
+  (Continue updating this template as you add your own sections)

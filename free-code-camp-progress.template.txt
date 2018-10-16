@@ -40,7 +40,7 @@ APIs and Microservices 0 - Not Started / Complete
   - MongoDB and Mongoose [0/12]
   - Projects [0/5]
 
-Information Security and Quality Assurance 
+Information Security and Quality Assurance  - Not Started / Complete
   - Information Security with HelmetJS [0/14]
   - Quality Assurance and Testing with Chai [0/24]
   - Advanced Node and Express [0/22]

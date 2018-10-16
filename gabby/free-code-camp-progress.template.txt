@@ -1,0 +1,49 @@
+Weekly Progress
+10/8/2018 - 10/12/2018: 522
+
+Responsive Web Design
+  - Basic HTML and HTML5 [27/27]
+  - Basic CSS [44/44]
+  - Applied Visual Design [27/52]
+  - Applied Accessibility [0/22]
+  - Responsive Web Design Principles [0/4]
+  - CSS Flexbox [0/17]
+  - CSS Grid [0/22]
+  - Projects [2/5]
+
+Javascript Algorithms And Data Structures - Complete
+  - Basic Javascript [107/107]
+  - ES6 [26/26]
+  - Regular Expressions [32/32]
+  - Debugging [12/12]
+  - Basic Data Structures [20/20]
+  - Basic Algorithm Scripting [16/16]
+  - Object Oriented Programming [26/26]
+  - Functional Programming [23/23]
+  - Intermediate Algorithm Scripting [21/21]
+  - Projects [5/5]
+
+Front End Libraries
+  - Bootstrap [31/31]
+  - jQuery [18/18]
+  - Sass [0/9]
+  - React [0/48]
+  - Redux [0/17]
+  - React and Redux [0/10]
+  - Projects [0/5]
+
+Data Visualization - Not Started
+
+APIs and Microservices - Complete
+  - NPM [10/10]
+  - Basic Node and Express [12/12]
+  - MongoDB and Mongoose [12/12]
+  - Projects [5/5]
+
+Information Security and Quality Assurance 
+  - Information Security with HelmetJS [0/14]
+  - Quality Assurance and Testing with Chai [0/24]
+  - Advanced Node and Express [22/22]
+  - Projects [0/5]
+
+Coding Interview Prep - Not Started
