@@ -1,4 +1,6 @@
 const answer = "BULL";
+let letters_tried = []
+let current_solution =  "";
 
 function guess() {
   let letter;
@@ -12,7 +14,19 @@ function check(letter, answer) {
   return correct;
 }
 
+function check_win_conditions(answer, current_solution) {
+  if (answer == current_solution) {
+    return true;
+  } 
+    return false;
 
+}
+
+
+
+for (let i = 10; i > 0; i--){
+  console.log(i);
+}
 
 
 
