@@ -1,6 +1,6 @@
 Weekly Progress
-[date] - [date]: [number of completed exercises]
-
+[10/4] - [10/11]: [5]
+[10/11] - [10/18]: [10]
 Responsive Web Design
   - Basic HTML and HTML5 [27/27]
   - Basic CSS [44/44]
@@ -8,5 +8,5 @@ Responsive Web Design
   - Applied Accessibility [0/x]
 
 Javascript Algorithms And Data Structures
-  - Basic Javascript [66/107]
+  - Basic Javascript [76/107]
   (Continue updating this template as you add your own sections)
