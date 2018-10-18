@@ -24,10 +24,6 @@ function check_win_conditions(answer, current_solution) {
 
 
 
-for (let i = 10; i > 0; i--){
-  console.log(i);
-}
-
 
 
 
