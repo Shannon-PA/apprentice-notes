@@ -17,6 +17,14 @@ function check(letter, answer) {
   return correct;
 }
 
+function check_win_conditions(answer, current_solution) {
+  if (answer == current_solution) {
+    return true;
+  } 
+    return false;
+
+}
+
 
 while (run_game) {
   let letter = guess();
