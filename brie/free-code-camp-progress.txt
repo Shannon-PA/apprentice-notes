@@ -1,10 +1,10 @@
 Weekly Progress
 [10/8/18] - [10/12/18]: [181 completed exercises]
 [10/11-18/18] : [222]
-
+[10/22-26/18] : [19]
   Responsive Web Design - Not Started / Complete
-  - Basic HTML and HTML5 [21/27]
-  - Basic CSS [33/44]
+  - Basic HTML and HTML5 [23/27]
+  - Basic CSS [36/44]
   - Applied Visual Design [0/52]
   - Applied Accessibility [0/22]
   - Responsive Web Design Principles [0/4]
@@ -16,8 +16,8 @@ Javascript Algorithms And Data Structures 0 - Not Started / Complete
   - Basic Javascript [107/107]
   - ES6 [24/26]
   - Regular Expressions [32/32]
-  - Debugging [0/12]
-  - Basic Data Structures [0/20]
+  - Debugging [12/12]
+  - Basic Data Structures [3/20]
   - Basic Algorithm Scripting [0/16]
   - Object Oriented Programming [0/26]
   - Functional Programming [0/23]
