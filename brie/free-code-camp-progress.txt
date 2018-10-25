@@ -1,9 +1,49 @@
 Weekly Progress
-[10/8/18] - [10/12/18]: [181 completed exercises]
+[10/11-18/18] : [41]
 
-Responsive Web Design
+  Responsive Web Design - [54]
   - Basic HTML and HTML5 [21/27]
   - Basic CSS [33/44]
-  - Basic JavaScrips [107/107]
-  - ES6 [13/26]
-  (Continue updating this template as you add your own sections)
+  - Applied Visual Design [0/52]
+  - Applied Accessibility [0/22]
+  - Responsive Web Design Principles [0/4]
+  - CSS Flexbox [0/17]
+  - CSS Grid [0/22]
+  - Projects [0/5]
+
+Javascript Algorithms And Data Structures [163]
+  - Basic Javascript [107/107]
+  - ES6 [24/26]
+  - Regular Expressions [32/32]
+  - Debugging [0/12]
+  - Basic Data Structures [0/20]
+  - Basic Algorithm Scripting [0/16]
+  - Object Oriented Programming [0/26]
+  - Functional Programming [0/23]
+  - Intermediate Algorithm Scripting [0/21]
+  - Projects [0/5]
+
+Front End Libraries - Not Started
+  - Bootstrap [0/31]
+  - jQuery [0/18]
+  - Sass [0/9]
+  - React [0/48]
+  - Redux [0/17]
+  - React and Redux [0/10]
+  - Projects [0/5]
+
+Data Visualization - Not Started
+
+APIs and Microservices 0 - Not Started
+  - NPM [0/10]
+  - Basic Node and Express [0/12]
+  - MongoDB and Mongoose [0/12]
+  - Projects [0/5]
+
+Information Security and Quality Assurance  - Not Started
+  - Information Security with HelmetJS [0/14]
+  - Quality Assurance and Testing with Chai [0/24]
+  - Advanced Node and Express [0/22]
+  - Projects [0/5]
+
+Coding Interview Prep - Not Started
