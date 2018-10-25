@@ -1,6 +1,7 @@
-Weekly Progress
-10/8/2018 - 10/12/2018: 522 - baseline
-10/15/2018 - 10/19/2018: 
+Weekly Progress  [ completed | total ]
+10/8/2018 - 10/12/2018: [ N/A | 522 ]
+10/15/2018 - 10/19/2018: [ 51 | 579 ]
+10/22/2018 - 10/26/2018: [ 33 | 612 ]
 
 Responsive Web Design
   - Basic HTML and HTML5 [27/27]
@@ -8,8 +9,8 @@ Responsive Web Design
   - Applied Visual Design [52/52]
   - Applied Accessibility [22/22]
   - Responsive Web Design Principles [4/4]
-  - CSS Flexbox [6/17]
-  - CSS Grid [0/22]
+  - CSS Flexbox [17/17]
+  - CSS Grid [22/22]
   - Projects [2/5]
 
 Javascript Algorithms And Data Structures - Complete

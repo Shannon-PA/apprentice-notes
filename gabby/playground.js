@@ -1,11 +1,27 @@
-function Object(name) {
-    this.name = name;
-    this.greet = () => {
-        console.log(this.name);
+debugger;
+function Animal(name){
+    let secret2 = "not a "
+    let message = "secret"; 
+    let blank = "blank";
+    this.setName = (newName) => {
+        name = newName;
+    };
+    this.getName = () => {
+        return name;
+    };
+    this.getMessage = () => {
+        return secret2 + message;
     }
 }
 
-let myObject = new Object("Potato");
+const myAnimal = new Animal("Steve");
 
-console.log(myObject.name);
-myObject.greet();
+console.log(myAnimal.getName());
+
+myAnimal.setName("Wonderbird");
+
+console.log(myAnimal.getName());
+
+console.log(myAnimal.getMessage());
+
+console.log(Math.pow(3, 4));
