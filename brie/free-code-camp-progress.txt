@@ -12,7 +12,7 @@ Weekly Progress
   - CSS Grid [0/22]
   - Projects [0/5]
 
-Javascript Algorithms And Data Structures 0 - Not Started / Complete
+Javascript Algorithms And Data Structures [163]
   - Basic Javascript [107/107]
   - ES6 [24/26]
   - Regular Expressions [32/32]
@@ -24,7 +24,7 @@ Javascript Algorithms And Data Structures 0 - Not Started / Complete
   - Intermediate Algorithm Scripting [0/21]
   - Projects [0/5]
 
-Front End Libraries - Not Started / Complete
+Front End Libraries - Not Started
   - Bootstrap [0/31]
   - jQuery [0/18]
   - Sass [0/9]
@@ -35,16 +35,16 @@ Front End Libraries - Not Started / Complete
 
 Data Visualization - Not Started
 
-APIs and Microservices 0 - Not Started / Complete
+APIs and Microservices 0 - Not Started
   - NPM [0/10]
   - Basic Node and Express [0/12]
   - MongoDB and Mongoose [0/12]
   - Projects [0/5]
 
-Information Security and Quality Assurance  - Not Started / Complete
+Information Security and Quality Assurance  - Not Started
   - Information Security with HelmetJS [0/14]
   - Quality Assurance and Testing with Chai [0/24]
   - Advanced Node and Express [0/22]
   - Projects [0/5]
 
-Coding Interview Prep - Not Started / Complete
+Coding Interview Prep - Not Started
