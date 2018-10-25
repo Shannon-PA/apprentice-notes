@@ -22,7 +22,6 @@ function check_win_conditions(answer, current_solution) {
 
 }
 
-test
 
 
 
