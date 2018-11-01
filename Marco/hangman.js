@@ -1,4 +1,5 @@
 const readline = require('readline-sync')
+let run_game = true;
 
 const answer = "CRAZY";
 let letters_tired = [];
@@ -40,3 +41,15 @@ function check_game_over (letters_tried, current_solution, answer, max_tries) {
 
 guess()
 
+while (run_game) {
+    let letter = guess();
+    let correct = check(letter, answer)
+    
+
+    if(correct) {
+        console.log('Placeholder: AYE YOU GOT IT!')
+    }else{
+        console.log('Placeholder: Sorry, try another letter')
+    }
+
+}
