@@ -1,7 +1,8 @@
 Weekly Progress
 10/4/18 - 10/11/18: 7 completed 
 10/11/18 - 10/18/18: 5 completed
-
+10/18/18 - 10/25/18: 10 completed 
+10/25/18 - 11/1/18: 3 completed
 Responsive Web Design
   - Basic HTML and HTML5 [27/27]
   - Basic CSS [44/44]
@@ -13,7 +14,7 @@ Responsive Web Design
   - Projects [0/5]
 
 Javascript Algorithms And Data Structures [25]
-  - Basic Javascript [25/107]
+  - Basic Javascript [38/107]
   - ES6 [0/26]
   - Regular Expressions [0/32]
   - Debugging [0/12]
