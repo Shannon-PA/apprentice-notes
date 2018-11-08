@@ -1,5 +1,5 @@
 Weekly Progress
-[Monday 10/29/18] - [Friday 11/02/18]: [ 18  ]
+[Monday 11/04/18] - [Friday 11/09/18]: [ 2  ]
 
 Responsive Web Design [71]
   - Basic HTML and HTML5 [27/27]
@@ -12,7 +12,7 @@ Responsive Web Design [71]
   - Projects [0/5]
 
 Javascript Algorithms And Data Structures [55]
-  - Basic Javasciprt [55/107]
+  - Basic Javasciprt [57/107]
   - ES6 [0/26]
   - Regular Expressions [0/32]
   - Debugging [0/12]
