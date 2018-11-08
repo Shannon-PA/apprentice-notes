@@ -1,7 +1,7 @@
 Weekly Progress
 [10/4] - [10/11]: [5]
 [10/11] - [10/18]: [10]
-
+[10/18] - [11/1]: [10]
 Responsive Web Design [78]
   - Basic HTML and HTML5 [27/27]
   - Basic CSS [44/44]
