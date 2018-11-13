@@ -1,0 +1,17 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "The game hangman ",
+  "main": "hangman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hangman"
+  ],
+  "author": "Marcok",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
