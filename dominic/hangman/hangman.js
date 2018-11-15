@@ -1,8 +1,9 @@
 const readline = require('readline-sync');
 const answer = "pears";
 let letters_tried= [];
-const max_tries = 6;
+let max_tries = 6;
 let current_solution = "-----";
+let run_game = true;
 
 function guess(){
    var letter = readline.question("pick a letter.");
@@ -19,7 +20,8 @@ function check(letter, answer) {
     }
 
     if (!correct) {
-        max_tries = max_tries - 1;
+        max_tries--;
+        console.log(max_tries)
     }
     return correct;
 }
@@ -44,10 +46,11 @@ function updateCurrentSolution(letter) {
       if (answer[i] === letter) {
         newSolution = newSolution.concat(letter);
       } else {
-        newSolution = newSolution.concat(currentSolution[i]);
+        newSolution = newSolution.concat(current_solution[i]);
       }
     }
-    currentSolution = newSolution;
+    return newSolution;
+    r
   }
 
   console.log("Welcome");
@@ -62,7 +65,7 @@ while(run_game){
 
     if (correct){
         console.log('Placeholder: YOU GOT IT RIGHT!')
-        updateCurrentSolution(letter)
+        current_solution = updateCurrentSolution(letter)
     } else {
         console.log('Placeholder: YOU GOT IT WRONG')
         updateLettersTried (letter)
