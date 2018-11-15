@@ -11,7 +11,7 @@ const max_tries = 6;
 function guess() {
     let letter;
     // Ask user for letter, return letter
-    letter = readline.question('Choose a letter please. It has six letters')
+    letter = readline.question('Choose a letter please. It has six letters.    ');
     return letter.toUpperCase();
 }
   
