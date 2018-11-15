@@ -1,38 +1,76 @@
 const readline = require('readline-sync');
+const answer = "pears";
+let letters_tried= [];
+let max_tries = 6;
+let current_solution = "-----";
 let run_game = true;
-const answer = "Boi"
-let letters_tried = [];
-const max_tries = 6;
-let current_solution = "___"
-let letter_tried = [];
 
+function guess(){
+   var letter = readline.question("pick a letter.");
+   return letter.toLowerCase();
 
-function guess() {
-   let letter;
-    letter = readline.question("take a guess boi. ")
-    return letter;
-}
+}  
 
-function check(letter, answers) {
-    let correct;
-    // put logic here boi!
+function check(letter, answer) { 
+    let correct = false;
+    for (let i=0; i < answer.length;i++){
+        if(answer[i] == letter) {
+            correct = true;
+        }
+    }
+
+    if (!correct) {
+        max_tries--;
+        console.log(max_tries)
+    }
     return correct;
 }
 
-function check_win_conditions(answer, current_solution) {
-    let game_over;
-    //put my logic here some time
-    return game_over;
+function check_win_conditions () {
+    if (answer == current_solution) {
+        console.log("you won")
+        run_game = false;
+    } else if (max_tries = 0) {
+        console.log("you lost")
+        run_game = false; 
+    }
 }
 
-while (run_game) {
+function updateLettersTried (letter){
+    letters_tried.push(letter);
+}
+
+function updateCurrentSolution(letter) {
+    let newSolution = '';
+    for (let i = 0; i < answer.length; i++) {
+      if (answer[i] === letter) {
+        newSolution = newSolution.concat(letter);
+      } else {
+        newSolution = newSolution.concat(current_solution[i]);
+      }
+    }
+    return newSolution;
+    r
+  }
+
+  console.log("Welcome");
+
+while(run_game){
+    console.log("Your answers so far: ", current_solution)
+    console.log("Incorrect letters: ", letters_tried)
+
     let letter = guess();
+
     let correct = check(letter, answer);
 
-    if (correct) {
-        console.log('placeholder: your right')
+    if (correct){
+        console.log('Placeholder: YOU GOT IT RIGHT!')
+        current_solution = updateCurrentSolution(letter)
     } else {
-        console.log('placeholder: you dumb')
+        console.log('Placeholder: YOU GOT IT WRONG')
+        updateLettersTried (letter)
     }
-
+    check_win_conditions ()
+    
 }
+console.log("thanks for playing")

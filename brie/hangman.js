@@ -1,60 +1,73 @@
 const readline = require('readline-sync');
-const answer = "COCONUT";
+const answer = "pears";
 let letters_tried= [];
 const max_tries = 6;
-let current_solution = "____";
+let current_solution = "-----";
 
 function guess(){
    var letter = readline.question("pick a letter.");
-   console.log(letter);
-   return letter;
+   return letter.toLowerCase();
 
 }  
 
 function check(letter, answer) { 
-let correct;
-for (let i=0; i< answer.length;i++){
-    $('#list option').each(function(index){
-}
-return correct;
-}
-//log each index to the answer
-    
-function check_win_conditions (answer, current_solution) {
-    let won = true;
-    //put my logic here
-    return won 
-}
-function check_Loss_conditions ( ){
-    let loss = false;
-}
-function updateLettersTried (){
-    let = []
+    let correct = false;
+    for (let i=0; i < answer.length;i++){
+        if(answer[i] == letter) {
+            correct = true;
+        }
+    }
+
+    if (!correct) {
+        max_tries = max_tries - 1;
+    }
+    return correct;
 }
 
-function updateProgress (){
-    
+function check_win_conditions () {
+    if (answer == current_solution) {
+        console.log("you won")
+        run_game = false;
+    } else if (max_tries = 0) {
+        console.log("you lost")
+        run_game = false; 
+    }
 }
 
-    // what does it need to know to do its job
-    //what are we going to get back from it?
+function updateLettersTried (letter){
+    letters_tried.push(letter);
+}
 
-//     var bar ="whatsup "
-//      var foo = readline.question('What is your name?');
-//      console.log(bar + foo +"!");
- guess () 
+function updateCurrentSolution(letter) {
+    let newSolution = '';
+    for (let i = 0; i < answer.length; i++) {
+      if (answer[i] === letter) {
+        newSolution = newSolution.concat(letter);
+      } else {
+        newSolution = newSolution.concat(currentSolution[i]);
+      }
+    }
+    currentSolution = newSolution;
+  }
 
-
+  console.log("Welcome");
 
 while(run_game){
-let letter = guess();
-let correct = check(letter, answer);
+    console.log("Your answers so far: ", current_solution)
+    console.log("Incorrect letters: ", letters_tried)
 
-if (correct){
-console.log('Placeholder: YOU GOT IT RIGHT!')
-} else {
-console.log('Placeholder: YOU GOT IT WRONG')
-}
-}
+    let letter = guess();
 
-console.log(1==1)
+    let correct = check(letter, answer);
+
+    if (correct){
+        console.log('Placeholder: YOU GOT IT RIGHT!')
+        updateCurrentSolution(letter)
+    } else {
+        console.log('Placeholder: YOU GOT IT WRONG')
+        updateLettersTried (letter)
+    }
+    check_win_conditions ()
+    
+}
+console.log("thanks for playing")
