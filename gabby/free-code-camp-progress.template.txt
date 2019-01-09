@@ -2,6 +2,9 @@ Weekly Progress  [ completed | total ]
 10/8/2018 - 10/12/2018: [ N/A | 522 ]
 10/15/2018 - 10/19/2018: [ 51 | 579 ]
 10/22/2018 - 10/26/2018: [ 33 | 612 ]
+10/29/2018 - 11/01/2018: No new progress 
+11/04/2018 - 11/08/2018: No new progress - working on project
+11/11/2018 - 11/15/2018: No new progress - working on different projects 
 
 Responsive Web Design
   - Basic HTML and HTML5 [27/27]
