@@ -7,6 +7,7 @@ Weekly Progress
 11/8/18 - 11/15/18: 10 completed
 11/15/18 - 11/22/18: 0 completed
 
+
 Responsive Web Design
   - Basic HTML and HTML5 [27/27]
   - Basic CSS [44/44]
