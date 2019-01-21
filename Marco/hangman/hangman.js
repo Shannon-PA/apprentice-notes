@@ -1,16 +1,24 @@
 const readline = require('readline-sync')
 let run_game = true;
-
-const answer =  "CRAZY";
-// answer = answer.toUpperCase();
+const random_words = ["MAD","RUDE","TIGHT"];
 let letters_tried = [];
-let current_solution = "_____"
+let current_solution = ""
 const max_tries = 6;
 
+const max = random_words.length - 1;
+const random_no = getRndInteger(0, max);
+const answer = random_words[random_no]
+
+for (let i = 0; i < answer.length; i++) {
+    current_solution = current_solution.concat('_');
+}
+
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
 
 function guess() {
     let letter;
-    // Ask user for letter, return letter
     letter = readline.question('Choose a letter please. It has six letters.    ');
     return letter.toUpperCase();
 }
@@ -56,6 +64,7 @@ function check_game_over() {
  console.log(" Hello, thanks for playing. Lets get started!!!");
 
 while (run_game) {
+
     console.log(current_solution);
     console.log(letters_tried);
     let letter = guess();
