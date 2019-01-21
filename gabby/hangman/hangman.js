@@ -1,7 +1,6 @@
 const readline = require("readline-sync");
 
-const POTENTIAL_ANSWERS = ["SOMETHING", "COCONUTS", "TRY ME"];
-let answer = POTENTIAL_ANSWERS[0];
+const POTENTIAL_ANSWERS = ["SOMETHING", "COCONUTS", "TRY ME", "PASSWORD", "WHY ARE YOU LIKE THIS", "SUPERCALIFRAGILISTICEXPIALADOCIOUS", "HELLO", "DINOSAUR", "CAN YOU SPELL", "STARDUST"];
 const MAX_TRIES = 10;
 
 let gameInfo = {
@@ -51,7 +50,7 @@ while(gameInfo.cont){
         }
     }
 
-    console.log('---------------');
+    console.log('___________________');
 }
 
 function isInAnswer(letterGuessed, answer){
@@ -101,7 +100,7 @@ function checkCorrect(progress, answer){
 }
 
 function resetGame(potentAnswers){
-    let rand = Math.floor(Math.random() * (potentAnswers.length - 1));
+    let rand = Math.floor(Math.random() * (potentAnswers.length));
     let progress = '';
     let answer = potentAnswers[rand];
 
