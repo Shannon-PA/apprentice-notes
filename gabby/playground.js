@@ -25,3 +25,7 @@ console.log(myAnimal.getName());
 console.log(myAnimal.getMessage());
 
 console.log(Math.pow(3, 4));
+
+let newObj = {};
+newObj.name = "Hank";
+console.log(newObj.name)
