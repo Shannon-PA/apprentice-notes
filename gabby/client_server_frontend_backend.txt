@@ -1,0 +1,17 @@
+Client - The user's computer that a web application is running on. It typically
+gets all of the data from the server (the source code necessary for the app) and
+typically compiles the code. It can also make requests to the server for 
+authentication, authorization, and to send data back and forth as necessary. 
+
+
+Server - Where I think the API lives, based on what endpoint the Client calls
+will send and recieve data and process it. It also sends the client a response
+(whether the request was a GET, POST, or etc) with the data or with any errors
+that occur. Can also save and fetch data from a database and pass it on to the
+client. 
+
+Frontend - What runs on the client and what the user directly interacts with.
+For example an app built using Angular.
+
+Backend - The database and the server - what the user doesn't see but their 
+computer still interacts with. 
