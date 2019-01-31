@@ -1,5 +1,4 @@
     The client is the users computer and what runs on their machine. However, you should not trust the client because anything in client is not safe due to security reasons. 
-    Front end is what the users see. Front end is responsible to create the look and feel of the a site or web application that would be comfortable for the users. 
+    Front end is what the users see. Front end is responsible for creating the look and feel of the a site or web application that would be comfortable for the users. 
     Backend development works with the server to make everything communicate between the database and browser. 
-    Back end works with the client because since the client isn't safe, security is implemented in the backend. 
-    A server is a computer program that stores data and provides it to clients machines when callled to do so.
+    A server is a computer program that stores data and provides it to clients machines when called to do so.
