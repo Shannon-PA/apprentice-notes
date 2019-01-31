@@ -1,0 +1,4 @@
+Client -  is typically a software applictaions installed that request information and also recieve data that contributes to authentication for a server.A client does not share any of its resources, but requests a server's content or service function.For example phones, computer. 
+Server - is a program that manages network resources. It can also share files by sending and reecieving data to be procces. For example a user may set up a server to control access to a network,host a website and also a user may set up a server to control access to a network, send/receive e-mail. 
+Frontend - has to deal with mainly the user interface; commonly in the language of HTML, CSS3, as well as JavaScript.
+Backend - mostly controls the communication side of things in the server within the database; commonly in the language Java, PHP, Ruby, Python, and others . 
