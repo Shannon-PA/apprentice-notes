@@ -1,6 +1,6 @@
 const readline = require('readline-sync')
 let run_game = true;
-const random_words = ["MAD","SAD","TIGHT"];
+const random_words = ["HONEST","LOVELY","CRAZY"];
 let letters_tried = [];
 let current_solution = ""
 const max_tries = 6;
