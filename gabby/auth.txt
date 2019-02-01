@@ -1,0 +1,27 @@
+Authentication : Verifying that the user is who they say they are. The most familiar method
+to me is having the user sign in with something like an email and password combination, in
+return they get a JWT (my understanding of a JWT below) that they send along in the header
+or URL of a request to the server. The server then checks the signature of the token to make 
+sure it hasn't been tampered with. You could also have a 3rd party handle auth for you, in
+which case you still get a JWT that your server can verify. I've also heard that cookies are 
+another way of doing this,the browser sends the cookie and the server then knows who you are. 
+However I'm unsure of the exact details beyond this and what security benefits one has over 
+the other.
+
+Authorization : Verifying that the user can actually do whatever they're trying to do. 
+Again, the method I'm most familiar with is using a JWT. In the payload of the JWT you 
+can determine a role for the user - like whether or not they're an admin. The benefit of
+using a JWT in this instance is that a JWT also has a signature thats base64 encoded(I 
+don't really know what that means, but I think it means encrypted somehow someway) and has
+a secret so a malicious/really bored person can't fake their own JWT (since the signature
+will no longer match with the payload unless they get the secret). 
+
+JWT : JSON Web Token, it has 3 parts a header, payload, and a signature. The header has
+the type of token and what signing algorithm is used (from the site, in other words how
+the signature gets generated). The payload contains more data about the token, like
+a username associated with it, whether or not their an admin, who the token was issued by,
+when the token expires, and more. The signature is the generated thing that verifies that 
+the JWT wasn't tampered with since you can re-create the same signature only if all of the 
+information is the same. 
+
+
