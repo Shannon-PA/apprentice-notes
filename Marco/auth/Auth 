@@ -1,0 +1,13 @@
+My understanding from the Auth class was that the term Authentication has to do with login information - such as registered(security)- basically proving who a person is and also finding out who the person is. Authorization- has to deal with the role a user that can do- as in their responsibility such admin can delete stuff while a regular user cannot do certain roles. For example
+ 
+ A line of defense within Auth cocerning the JWT (server)
+
+If "STARBUCKS” was my password- The Hash will generate a random password in their sever that will equally mean the same thing but in different text (inreversible string) 
+
+“STABUCKS” = “ GIBBERISH”
+
+BUT 
+
+“GIBBERISH” cannot be equal back to “STARBUCKS”
+
+And this is one of the secure tactics within the JWT server because every details counts  so if some tried to steal and modified the information is wouldn’t work because the signature would be different. 
