@@ -1,0 +1,4 @@
+Authorization is when a server determines if the client has permission to access a file.
+Authentication is a way to give someone permission to have access to or being able to do somthing.
+To make sure a site is secure, always use https and not http because
+people are able to see your password on http. Also, "s" in https stands for secure and the password is hidden by encryption.
