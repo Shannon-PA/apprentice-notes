@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 function auth(req, res, next) {
-    console.log('SUN')
+    console.log(req.headers.water)
   next();
 }
 function handler(req, res, next){
