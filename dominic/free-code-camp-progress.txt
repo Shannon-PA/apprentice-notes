@@ -21,7 +21,7 @@ Responsive Web Design
   - Projects [0/5]
 
 Javascript Algorithms And Data Structures 
-  - Basic Javascript [53/107]
+  - Basic Javascript [58/107]
   - ES6 [0/26]
   - Regular Expressions [0/32]
   - Debugging [0/12]
