@@ -1,30 +1,47 @@
 const express = require("express");
+const cors = require("cors");
 
 server = express();
 
+let corsOptions = {
+    origin: '*',
+    optionsSuccessStatus: 200
+}
+
+
 function auth(req, res, next){
-    if(req.headers.name != "Secret Agent Man"){
-        //res.locals sets a variable from middleware that holds state throughout the life of a request
-        console.log(req.headers.name);
-        res.locals.message = "Who are you";
-    }
-    next();
-}
-
-function logger(req, res){
-    let message;
-
-    if(res.locals.message){
-        message = res.locals.message;
-        //res.set sets a header up, in this case it's set up a header called hint
-        res.set('Hint', 'He\'s giving you a number and taking away your name');
+    if(req.token != "Secret Agent Man"){
+        res.status(401).send();
     } else {
-        message = "Odds are he won't live to see tomorrow";
+        next();
     }
-    res.send(message);
 }
 
-server.get("/", auth, logger);
+function list(req, res){
+    const myResponse = {
+        message: "Odds are he won't live to see tomorrow",
+        list: [
+            "Something",
+            "Another thing",
+            "Realize I'm bad at todo lists",
+            "Scream internally",
+            "Yet another thing"
+        ]
+    }
+    res.json(myResponse);
+}
+
+server.use(cors(corsOptions));
+
+server.get('/', auth, list);
+
+server.get("/signin", (req, res) => {
+    if (req.headers.username == "something" && req.headers.password == "Password01"){
+        res.status(200).json({token: "Secret Agent Man"});
+    } else {
+        res.status(400).send();
+    }
+});
 
 server.get('/knock_knock', (req, res) => {
     res.send("Whose (who's???) this?"); 
