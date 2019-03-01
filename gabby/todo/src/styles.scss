@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import 'app/material/theme.scss';
+
+@include mat-core();
+
+.todo-theme {
+    @include angular-material-theme($todo-theme);
+}
 
 body, html {
     margin: 0;

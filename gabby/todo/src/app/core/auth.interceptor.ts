@@ -11,7 +11,7 @@ export class AuthInterceptor implements HttpInterceptor{
 
     intercept(req: HttpRequest<any>, next: HttpHandler){
         if(this.authService.token){
-            req = req.clone({headers: req.headers.set('token', this.authService.token)})
+            req = req.clone({headers: req.headers.set('token', this.authService.token)});
         }
         return next.handle(req).pipe(
             tap((event : HttpEvent<any>) => {

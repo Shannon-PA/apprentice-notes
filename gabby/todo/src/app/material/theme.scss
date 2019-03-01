@@ -1,0 +1,15 @@
+@import '~@angular/material/theming';
+
+$todo-primary : mat-palette($mat-deep-purple, 500);
+$todo-accent : mat-palette($mat-blue);
+$todo-warn : mat-palette($mat-orange);
+
+$todo-theme: mat-light-theme($todo-primary, $todo-accent, $todo-warn);
+
+$todo-primary-button : mat-color($todo-primary);
+
+// @include angular-material-theme($todo-theme);
+
+// .todo-theme {
+//     $todo-primary: mat-palette($mat-deep-purple);
+// }

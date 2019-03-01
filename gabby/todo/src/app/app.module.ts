@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { MaterialModule } from './material/material.module';
 import { ListComponent } from './list/list.component';
+import { ListService } from './list/list.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { ListComponent } from './list/list.component';
     CoreModule,
     MaterialModule
   ],
-  providers: [],
+  providers: [
+    ListService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

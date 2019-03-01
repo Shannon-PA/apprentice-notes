@@ -10,7 +10,9 @@ let corsOptions = {
 
 
 function auth(req, res, next){
-    if(req.token != "Secret Agent Man"){
+    console.log(req.token)
+    if(req.headers.token != "Secret Agent Man"){
+        console.log("Not equal")
         res.status(401).send();
     } else {
         next();
@@ -18,22 +20,19 @@ function auth(req, res, next){
 }
 
 function list(req, res){
-    const myResponse = {
-        message: "Odds are he won't live to see tomorrow",
-        list: [
+    const list = [
             "Something",
             "Another thing",
             "Realize I'm bad at todo lists",
             "Scream internally",
             "Yet another thing"
         ]
-    }
-    res.json(myResponse);
+    res.json(list);
 }
 
 server.use(cors(corsOptions));
 
-server.get('/', auth, list);
+server.get('/list', auth, list);
 
 server.get("/signin", (req, res) => {
     if (req.headers.username == "something" && req.headers.password == "Password01"){

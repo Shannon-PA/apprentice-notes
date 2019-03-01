@@ -1,3 +1,8 @@
-<p>
-  list works!
-</p>
+<div class="container">
+  <mat-card class="list">
+    <mat-card-title>Your To-Do List</mat-card-title>
+    <mat-list>
+      <mat-list-item class="item" *ngFor="let item of myList">{{ item }}</mat-list-item>
+    </mat-list>
+  </mat-card>
+</div>

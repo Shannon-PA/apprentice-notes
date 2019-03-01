@@ -1,4 +1,5 @@
 @import '~@angular/material/theming';
+@import '../../material/theme.scss';
 
 .container {
   background: linear-gradient(123deg,#cbbaeb, #9dd8f3, #9de2db); 
@@ -32,8 +33,7 @@
 
       button {
         width: 100%;
-        background-color: #673ab7;
+        background-color: mat-color($todo-primary, 500);
         color: white;
-
       }
   }
