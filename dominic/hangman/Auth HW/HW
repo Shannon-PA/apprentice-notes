@@ -1,0 +1,9 @@
+AUTH: authentication is a form of security that allows people to gain access to a service like a normal
+ user by using something to authenticate who the person is for example ways of authenticating 
+ a person can be used by username/password, cookies, and something called JSON web tokens. JSON
+ web tokens are most commonly used these days for single sign on applications such as pinnacol wiki.
+ The JWT's are used in authorization by allowing a certain amount of services and resources specific to
+ the person that the JWT is connected to based on their identity. for example a regular user will be authorized to have limited access 
+ to routes and services compared to someone who is a admin who will be authorized to have a high access to 
+ routes and services. The difference between authentication and authorization is that authentication  
+ AUTH is important because this does not allow anyone to simply act as a different person to steal or realease any personal information 
