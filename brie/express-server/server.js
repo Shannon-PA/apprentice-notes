@@ -1,15 +1,20 @@
 const express = require('express')
 const app = express()
 const port = 3000
+var cors = require('cors')
+
+app.use(cors())
+
 
 function auth(req, res, next) {
-    console.log(req.headers.water)
-    if (req.headers.water =='cooking') {
-        next();
-    } else {
-        res.status(401);
-        res.send("GET OUT!!!!!!")
-    }
+    next();
+    // console.log(req.headers.water)
+    // if (req.headers.water =='cooking') {
+    //     next();
+    // } else {
+    //     res.status(401);
+    //     res.send("GET OUT!!!!!!")
+    // }
 }
 
 function handler(req, res, next){
