@@ -1,11 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {AuthService} from './auth.service'
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { TodolistService } from './todolist.service';
+import { AuthService } from './auth.service';
 
 @NgModule({
   declarations: [
@@ -14,9 +12,9 @@ import { TodolistService } from './todolist.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    HttpClientModule
   ],
-  providers: [AuthService, TodolistService],
+  providers: [ AuthService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
