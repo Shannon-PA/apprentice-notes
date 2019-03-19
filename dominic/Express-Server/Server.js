@@ -1,15 +1,17 @@
 const express = require('express')
 const app = express()
 const port = 3000
+var cors = requires('cors') 
+app.use(cors())
 
 function auth(req,res, next) {
-  console.log(req.headers.boi);
-  if (req.headers.boi == 'chicken') {
-    next();
-  } else {
-    res.status(401);
-    res.send("get your bubblegum looking head out of here boooooiiiiii")
-  }
+  // console.log(req.headers.boi);
+  // if (req.headers.boi == 'chicken') {
+  //   next();
+  // } else {
+  //   res.status(401);
+  //   res.send("get your bubblegum looking head out of here boooooiiiiii")
+  // }
 }
 
 function handler(req,res,next){
