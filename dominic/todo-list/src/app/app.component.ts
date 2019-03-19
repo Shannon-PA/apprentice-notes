@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import {AuthService} from './auth.service'
+import {AuthService} from './auth.service';
+
+import { TodolistService } from './todolist.service';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +10,10 @@ import {AuthService} from './auth.service'
 })
 export class AppComponent {
   title = 'todo-list';
-  constructor(private authSvc: AuthService) {}
+  constructor(private authSvc: AuthService, private todoSvc: TodolistService) {
+    this.todoSvc.get_todolist().subscribe(
+      data => console.log(data),
+      error => console.log(error)
+    )
+  }
 }
